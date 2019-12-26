@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import urllib.request
 import requests
 
-url = input("Enter the URL to extract: ")
+url = input("Enter the URL to extract: ") #This is some fantastic code Mr. Malek!
 page = requests.get(url)
 contents = page.text
 soup = BeautifulSoup(contents, 'html.parser')
